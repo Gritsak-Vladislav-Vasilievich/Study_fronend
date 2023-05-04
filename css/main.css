@@ -1,0 +1,251 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #F9F9F9;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+nav{
+    height: 97px;
+    padding-top: 48px;
+}
+
+.nav__list{
+    display: flex;
+    align-items: baseline;
+}
+
+.logo{
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    color: #0A8077;
+}
+
+.nav__item{
+    margin-left: 5.12%;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.nav__item:nth-child(2) {
+    margin-left: 30%;
+    
+}
+
+.nav__item:last-child {
+    margin-left: 4%;
+}
+
+.nav__item__link{
+    color: #404040;
+}
+
+.button{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+
+.nav__item__link__button{
+    border: 1px solid #0A8077;
+    border-radius: 8px;
+    padding: 1rem 2.5rem;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0A8077;
+}
+
+.nav__item__link__button:hover{
+    background-color: #0A8077;
+    color: white;
+    box-shadow: 0px 0px 3px 1px rgba(10, 128, 119, 0.4);
+}
+
+.nav__item__link-active.active {
+    color: #0A8077;
+    border-bottom: 2px solid #0A8077;
+}
+
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 920px;
+    max-height: 102px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.form__label {
+    margin-bottom: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;    
+    
+    color: rgba(0, 0, 0, 0.57);
+}
+  
+  
+.form__button {
+    padding: 23px 33px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-left: 70px;
+    margin-right: 15px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.form__button:hover{
+    background-color: rgb(71, 179, 152);
+    color: #000000;;
+    box-shadow: 0px 0px 3px 1px rgba(10, 128, 119, 0.4);
+}
+
+.button{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    background: #0A8077;
+    border: none;
+    box-shadow: 0px 15px 30px -10px rgba(79, 79, 79, 0.42);
+    border-radius: 8px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding: 21px 0 24px 0;
+}
+
+.form-group:first-child{
+    padding-left: 26px;
+}
+
+.form__input{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #404040;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+
+input[type=date] {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #404040;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#date{
+    max-width: 135px;
+}
+
+.form-line{
+    padding: 0 28px;
+}
+
+
+.header-wrapper{
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    height: 720px;
+}
+
+
+.header-wrapper__content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 55%;
+}
+
+.header-wrapper__image{
+    display: block;
+    height: 100%;
+    max-width: 45%;
+}
+
+.header-label{
+    margin-top: 54px;
+    max-width: 224px;
+    height: 7.2%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -10px rgba(79, 79, 79, 0.13);
+    border-radius: 6px;
+
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0A8077;
+}
+
+
+.header-title{
+    margin-top: 39px;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 141.02%;
+    color: #404040;
+}
+
+.header-title span{
+    color: #0A8077;
+}
+
+.header-description{
+    margin-top: 39px;
+    max-width: 88%;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 164%;
+    color: rgba(64, 64, 64, 0.9);
+}
+
+.form{
+    position: absolute;
+    top: 68%;
+
+}
