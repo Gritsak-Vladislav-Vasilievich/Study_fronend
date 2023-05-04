@@ -249,3 +249,82 @@ input[type=date] {
     top: 68%;
 
 }
+
+.our-services__title{
+    max-width: 778px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+    color: #000000;
+    text-align: center;
+}
+
+.our-services{
+    margin-top: 97px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.our-services__wrapper{
+    display: flex;
+}
+
+.our-services__card{
+    max-width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 15px 30px -10px rgba(79, 79, 79, 0.13);
+}
+
+.our-services__card:nth-child(2){
+    margin-top: 67px;
+}
+
+
+.our-services__card-column{
+    max-width: 50%;
+    margin-top: 54px;
+}
+
+.our-services__card-column:last-child{
+    margin-left: 26.5px;
+}
+
+.our-services__card-column:first-child{
+    margin-right: 26.5px;
+}
+
+.card-title{
+    margin-top: 30px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 155.13%;
+    color: #000000;
+}
+
+.card-description{
+    max-width: 70%;
+    margin-top: 12px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 164%;
+    color: #404040;
+}
+
+.card-number{
+    padding: 11px 28px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.card-content{
+    padding: 25px 28px;
+}
