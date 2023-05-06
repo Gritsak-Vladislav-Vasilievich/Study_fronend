@@ -1,3 +1,7 @@
+new Swiper('.cards-slide')
+
+
+
 // Получаем ссылки навигации
 const navLinks = document.querySelectorAll('.nav__item__link-active');
 
