@@ -1,4 +1,5 @@
-new Swiper('.cards-slide')
+new Swiper('.slider')
+new Swiper('.reviews-slider')
 
 
 
@@ -41,8 +42,24 @@ function pad(num) {
   } else {
     return num;
   }
+
 }
 
+
+const elements = document.querySelectorAll('.slider');
+const links = document.querySelectorAll('.our-facilities__link');
+
+let activeElement = document.querySelector('.slider-active');
+
+links.forEach(link => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+    const target = event.currentTarget.dataset.target;
+    activeElement.classList.remove('slider-active');
+    document.querySelector(`#${target}`).classList.add('slider-active');
+    activeElement = document.querySelector('.slider-active');
+  });
+});
 
 
 
