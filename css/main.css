@@ -84,6 +84,77 @@ nav{
 }
 
 
+.container {
+    position: relative;
+  }
+  
+  .logo {
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    color: #0A8077;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  
+  .menu-toggle {
+    display: none;
+  }
+  
+  .menu-toggle-label {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  
+  .menu-toggle-icon {
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 2px;
+    background-color: #0A8077;
+    margin: 8px auto;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .menu-toggle:checked + .menu-toggle-label .menu-toggle-icon {
+    background-color: #ffffff;
+  }
+  
+  .nav__list {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    padding-top: 97px;
+    background-color: #ffffff;
+    transition: left 0.3s ease-in-out;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .nav__item {
+    margin-bottom: 1.5rem;
+  }
+  
+  .menu-toggle:checked ~ .nav__list {
+    left: 0;
+  }
+
 .form {
     display: flex;
     align-items: center;
@@ -249,7 +320,6 @@ input[type=date] {
 .form{
     position: absolute;
     top: 68%;
-
 }
 
 .our-services__title{

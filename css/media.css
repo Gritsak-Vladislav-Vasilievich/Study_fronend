@@ -1,0 +1,60 @@
+@media(max-width:1170px){
+    .container {
+        padding: 20px; 
+    }
+
+    .nav__item:nth-child(2) {
+        margin-left: 5%;
+        
+    }
+    
+    .nav__item:last-child {
+        margin-left: 5%;
+    }
+
+    .nav__item{
+        margin-left: 5%;
+    }
+
+    .logo{
+    margin-right: 6%;
+    }
+}
+
+@media(max-width: 1100px){
+    .form{
+        top: 88%;
+    }
+}
+
+@media (min-width: 902px) {
+    .menu-toggle-label {
+      display: none;
+    }
+
+    .burger-logo{
+        display: none;
+    }
+
+    .nav__list {
+      position: static;
+      width: auto;
+      height: auto;
+      padding-top: 0;
+      background-color: transparent;
+      transition: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    .logo{
+        display: block;
+    }
+  
+    .nav__item {
+      margin-bottom: 0;
+      margin-left: 1rem;
+    }
+  }
