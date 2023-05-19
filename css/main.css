@@ -14,17 +14,18 @@ body{
 
 .open{
     display: flex !important;
-    flex-direction: column;
-    row-gap: 30px;
+
 }
   
 .burger{
+    padding: 0;
+    margin: 0;
     display: none;
     position: relative;
     z-index: 50;
     float: right;
     width: 30px;
-    height: 20px;
+    height: 18px;
 }
 
 .burger::before,
@@ -36,6 +37,10 @@ body{
   width: 80%;
   background-color: rgba(0, 0, 0, 0.57);
   transition: all 0.3s ease;
+}
+
+.burger-logo{
+    display: none;
 }
 
 .burger::before {
@@ -71,6 +76,7 @@ body{
 
 
 nav{
+    position: relative;
     height: 97px;
     padding-top: 48px;
 }
@@ -154,7 +160,6 @@ nav{
   
 .form__label {
     margin-bottom: 8px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -164,6 +169,9 @@ nav{
     color: rgba(0, 0, 0, 0.57);
 }
   
+.header-wrapper-mobile__image{
+    display: none;
+}
   
 .form__button {
     padding: 23px 33px;
