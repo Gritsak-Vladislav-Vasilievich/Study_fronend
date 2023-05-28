@@ -1,8 +1,6 @@
 new Swiper('.slider')
 new Swiper('.reviews-slider')
 
-
-
 // Получаем ссылки навигации
 const navLinks = document.querySelectorAll('.nav__item__link-active');
 

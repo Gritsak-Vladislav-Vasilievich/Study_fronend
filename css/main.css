@@ -374,7 +374,7 @@ input[type=date] {
 }
 
 .our-services__card-description{
-    max-width: 70%;
+    max-width: 80%;
     margin-top: 12px;
     font-family: 'Inter';
     font-weight: 600;
@@ -582,6 +582,18 @@ input[type=date] {
     text-align: center;
     color: rgba(64, 64, 64, 0.65);
 }
+
+
+.subscribe-to__description{
+    margin-top: 26px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140.19%;
+    text-align: center;
+    color: rgba(64, 64, 64, 0.65);
+}
+
 
 .subscribe-to__form{
     margin-top: 39px;

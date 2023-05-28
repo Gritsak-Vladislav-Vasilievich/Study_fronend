@@ -25,13 +25,22 @@
     }
 }
 
-@media(max-width: 1100px){
+@media(max-width: 1103px){
     .form{
         top: 88%;
     }
 }
  
 @media (max-width: 903px) {
+
+    .our-services__title{
+        font-size: 46px;
+    }
+
+    .header-title{
+        font-size: 40px;
+    }
+
    .burger{
     display: flex;
    }
@@ -70,6 +79,7 @@
     display: flex;
     justify-content: space-between;
    }
+
    .nav__item__link__button{
         padding: 0.7rem 1.7rem;
         font-size: 18px;
@@ -98,6 +108,10 @@
 }
 
 
+.our-services__card{
+    height: 350px;
+}
+
 input[type=date] {
     font-size: 14px;
     line-height: 18px;
@@ -106,6 +120,24 @@ input[type=date] {
 }
 
 @media (max-width: 773px) {
+
+    .container {
+        padding: 10px; 
+    }
+
+    .card-number{
+        padding: 8px 22px;
+        font-size: 13px;
+    }
+
+    .our-services__title{
+        font-size: 38px;
+    }
+
+    .our-services__card{
+        height: auto;
+    }
+
     .header-wrapper{
         flex-direction: column;
         height: auto;
@@ -184,12 +216,19 @@ input[type=date] {
     .our-services__card-column:first-child{
         margin-right: 0;
     }
-    
-    .our-facilities__list{
+
+    .our-facilities__links-column{
         display: flex;
         justify-content: center;
-        max-width: 300px;
-        margin: 0 auto;        
+    }
+
+    
+    .our-facilities__item{
+        text-align: center;
+        margin: 20px 0;
+        padding: 0 20px;
+        font-size: 22px;
+        line-height: 39px;
     }
 
     .our-facilities__wrapper{
@@ -199,16 +238,10 @@ input[type=date] {
         margin-top: 53px;
     }
 
-    .our-facilities__item{
-        text-align: center;
-        margin: 40px 0;
-        padding: 0 20px;
-        max-width: 100%;
-        font-size: 22px;
-        line-height: 39px;
+    .our-facilities__list{
+        display: block;
+        width: 300px;
     }
-
-
 
     .reviews__card{
         max-width: 80%;
@@ -268,6 +301,82 @@ input[type=date] {
     color: rgba(64, 64, 64, 0.7);
 }
 
+.reviews-title{
+    font-size: 40px;
+}
+
+.reviews__card{
+    max-width: 80%;
+}
+
+.quotes{
+    font-size: 70px;
+    margin-top: 10px;
+}
+
+.review__text{
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.subscribe-to__title{
+    margin-top: 39px;
+    font-size: 36px;
+}
+
+.subscribe-to__description{
+    margin-top: 22px;
+    font-size: 18px;
+}
+
+
+.subscribe-to__input[type="text"]::placeholder {
+    font-size: 18px;
+}
+
+.subscribe-to__btn{
+    height: auto;
+}
+
+
+
+.footer-label{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 141.02%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.87);
+    padding: 26px 0;
+}
     
+}
+
+@media (max-width: 321px) {
+
+    .container {
+        padding: 7px; 
+    }
+
+
+    .our-facilities__title{
+        font-size: 34px;
+        margin-left: 28px;
+    }
+
+    .quotes{
+        font-size: 55px;
+    }
+
+    .subscribe-to{
+        display: none;
+    }
+
+    .footer-label{
+        font-size: 11px;
+        line-height: 141.02%;
+        padding: 16px 0;
+    }
 }
 
